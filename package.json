@@ -1,0 +1,48 @@
+{
+  "name": "pimatic-energy-monitor",
+  "description": "Pimatic plugin which accumulates the electric energy consumption of PowerSwitch devices and and power meters",
+  "author": {
+    "name": "Marcus Wittig",
+    "url": "https://github.com/mwittig"
+  },
+  "main": "energy-monitor",
+  "files": [
+    "energy-monitor.coffee",
+    "energy-monitor-config-schema.coffee",
+    "device-config-schema.coffee",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "Energy Monitoring",
+    "Metering",
+    "Pimatic"
+  ],
+  "version": "0.8.0",
+  "homepage": "https://github.com/mwittig/pimatic-energy-monitor/tree/master",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mwittig/pimatic-energy-monitor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mwittig/pimatic-energy-monitor/issues"
+  },
+  "license": "AGPL-3.0",
+  "maintainers": [
+    {
+      "name": "mwittig",
+      "url": "https://github.com/mwittig"
+    }
+  ],
+  "configSchema": "energy-monitor-config-schema.coffee",
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "pimatic": "0.8.*"
+  },
+  "engines": {
+    "node": ">0.8.x",
+    "npm": ">1.1.x"
+  }
+}
