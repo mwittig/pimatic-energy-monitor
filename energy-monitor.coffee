@@ -36,6 +36,7 @@ module.exports = (env) ->
         do (point) =>
           name = point.name
           @attributeValues[name] = if lastState?[name]? then lastState[name] else 0
+          @attributes = _.cloneDeep(@attributes)
           @attributes[name] = {
             description: name
             label: name
@@ -59,7 +60,7 @@ module.exports = (env) ->
 
 
     _setAttribute: (attributeName, value) ->
-      @attributeValue = value
+      @attributeValues[attributeName] = value
       @emit attributeName, value
 
   return plugin

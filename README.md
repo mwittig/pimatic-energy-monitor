@@ -6,6 +6,8 @@ For example a spotlight device using 20W has been activated for 6 hours until no
 - Calculate Consumption: A spotlight using 20W * 6 activated hours = 120Wh or 0,120kWh until now
 - Calculate Cost: 0,120kWh * €0,23 energy price per kWh = €0,0276 until now (* 365 days = €10,074 cost per year)
 
+![image](http://s17.postimg.org/3nx8sebbj/Consumptionandcostdevice.png) 
+
 ## Status of Implementation
 
 tbd

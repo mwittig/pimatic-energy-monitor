@@ -17,8 +17,8 @@ module.exports = {
             name:
               description: "Name for the measurement point attribute."
               type: "string"
-            deviceType:
-              description: "Name for the measurement point attribute."
+            valueKind:
+              description: "Defined the kind of value referenced by expression - measurement"
               type: "string"
             expression:
               description: "
