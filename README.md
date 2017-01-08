@@ -30,7 +30,7 @@ Add a Energy Monitor Device device into your config.json based on these example 
       "name": "Energy Monitor",
       "kwh-price": "0.23",
       "currency": "euro",
-      "kw-or-kwh”: “kwh”, 
+      "kw-or-kwh": "kwh", 
       "device-monitor": [
         {
           "id": "switchX/power-meterY",
