@@ -1,5 +1,7 @@
 # pimatic-energy-monitor
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mwittig/pimatic-energy-monitor.svg)](https://greenkeeper.io/)
+
 Pimatic plugin which accumulates the electric energy consumption of PowerSwitch devices and and power meters.
 
 For example a spotlight device using 20W has been activated for 6 hours until now:
